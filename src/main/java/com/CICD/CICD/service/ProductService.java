@@ -1,8 +1,8 @@
-package com.CICD.service;
+package com.CICD.CICD.service;
 
 
-import com.CICD.entity.Product;
-import com.CICD.repository.ProductRepository;
+import com.CICD.CICD.entity.Product;
+import com.CICD.CICD.repository.ProductRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

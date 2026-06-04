@@ -1,4 +1,4 @@
-package com.CICD.entity;
+package com.CICD.CICD.entity;
 
 import jakarta.persistence.*;
 import lombok.*;

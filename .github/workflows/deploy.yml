@@ -18,6 +18,18 @@ jobs:
         with:
           java-version: '21'
           distribution: 'temurin'
+
+
+      - name: Sonar Scan
+        run: |
+          mvn sonar:sonar \
+            -Dsonar.token=${{ secrets.SONAR_TOKEN }} \
+            -Dsonar.organization=sarita-kadam \
+            -Dsonar.projectKey=sarita-kadam_CICD \
+            -Dsonar.host.url=https://sonarcloud.io    
+          
+          
+
 #          cache: maven
 #
 #      - name: Build with Maven

@@ -1,8 +1,8 @@
-package com.CICD.controller;
+package com.CICD.CICD.controller;
 
 
-import com.CICD.entity.Product;
-import com.CICD.service.ProductService;
+import com.CICD.CICD.entity.Product;
+import com.CICD.CICD.service.ProductService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 

@@ -1,6 +1,6 @@
-package com.CICD.repository;
+package com.CICD.CICD.repository;
 
-import com.CICD.entity.Product;
+import com.CICD.CICD.entity.Product;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
